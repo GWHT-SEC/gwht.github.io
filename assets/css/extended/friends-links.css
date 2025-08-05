@@ -1,17 +1,17 @@
 .friends-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px; /* 缩小gap */
+    gap: 12px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-    max-width: 1024px; /* 或你页面容器的最大宽度 */
+    max-width: 1024px;
 }
 
 .friendurl {
     box-sizing: border-box;
-    width: calc((100% - 100px) / 3); /* 减去gap*2 */
+    width: calc((100% - 100px) / 3);
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -30,7 +30,7 @@
     background-color: var(--card-bg, #fafafa);
     box-shadow: 0 1.5px 4px rgba(0,0,0,0.04);
     cursor: pointer;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
     padding: 8px 10px;
     border: 1px solid transparent;
 }
@@ -98,9 +98,10 @@
     flex: auto;
 }
 
+/* 响应式 */
 @media screen and (max-width: 1024px) {
     .friendurl {
-        width: calc(40.5% - 16px); /* 中屏幕宽度调整 */
+        width: calc(40.5% - 16px);
     }
 }
 
@@ -108,14 +109,39 @@
     .friendurl {
         width: calc(100% - 16px);
     }
+
     .frienddiv {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
         padding: 16px;
     }
+
     .frienddivleft {
         margin-right: 0;
         margin-bottom: 12px;
     }
+}
+
+/* Hugo 黑暗模式适配 */
+.dark .frienddiv {
+    background-color: rgb(25, 34, 52) !important; /* 比 rgb(30,41,59) 更深一点 */
+    box-shadow: 0 1.5px 8px rgba(255,255,255,0.05) !important;
+    border-color: #444 !important;
+}
+
+.dark .frienddiv:hover {
+    background-color: rgb(40, 55, 80) !important; /* hover 状态略微加亮 */
+    box-shadow: 0 8px 20px rgba(255,255,255,0.1) !important;
+}
+
+.dark .friendname,
+.dark .friendinfo {
+    color: #cbd5e1 !important;
+    opacity: 0.9 !important;
+}
+
+.dark .myfriend {
+    background-color: #222 !important;
+    box-shadow: 0 2px 6px rgba(255,255,255,0.1) !important;
 }
