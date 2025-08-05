@@ -9,7 +9,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>//localhost:1313/award/</loc>
     <lastmod>2025-08-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -21,7 +21,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/member/</loc>
+    <loc>//localhost:1313/members/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

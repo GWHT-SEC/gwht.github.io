@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>广外网安实验室</title>
-    <link>//localhost:1313/</link>
+    <link>//localhost:1313/members/</link>
     <description>Recent content on 广外网安实验室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
     <managingEditor>youremail@example.com (广外网安实验室)</managingEditor>
     <webMaster>youremail@example.com (广外网安实验室)</webMaster>
     <copyright>© 2025 广外网安实验室</copyright>
-    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/members/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>innerknowing</title>
@@ -19,26 +19,6 @@
       <guid>//localhost:1313/members/1a328ae325c5da884a5b15a1b4d4a446/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/members/1a328ae325c5da884a5b15a1b4d4a446/feature.jpg" />
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//localhost:1313/award/</link>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (广外网安实验室)</author>
-      <guid>//localhost:1313/award/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//localhost:1313/recruitment/</link>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (广外网安实验室)</author>
-      <guid>//localhost:1313/recruitment/</guid>
-      <description></description>
-      
     </item>
     
   </channel>
