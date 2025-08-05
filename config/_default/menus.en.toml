@@ -12,20 +12,19 @@
 
 
 [[main]]
-  name = "🎉实验室招新"
+  name = "<img src='https://api.iconify.design/ix:add-user.svg' width='16' height='16' style='display:inline-block; vertical-align:middle; margin-bottom:2px;'> 实验室招新"
   pageRef = "Recruitment"
   weight = 20
 
 [[main]]
-  name = "🏆战队荣誉"
-  pageRef = "about"
+  name = "<img src='https://api.iconify.design/ep:medal.svg' width='16' height='16' style='display:inline-block; vertical-align:middle; margin-bottom:2px;'> 战队荣誉"
+  pageRef = "award"
   weight = 30
 
 [[main]]
-  name = "👫实验室成员"
-  pageRef = "member"
+  name = "<img src='https://api.iconify.design/mdi:account-group-outline.svg' width='16' height='16' style='display:inline-block; vertical-align:middle; margin-bottom:2px;'> 实验室成员"
+  pageRef = "members"
   weight = 40
-
 
 
 #[[main]]
