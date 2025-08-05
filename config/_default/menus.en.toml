@@ -18,14 +18,13 @@
 
 [[main]]
   name = "<img src='https://api.iconify.design/ep:medal.svg' width='16' height='16' style='display:inline-block; vertical-align:middle; margin-bottom:2px;'> 战队荣誉"
-  pageRef = "about"
+  pageRef = "award"
   weight = 30
 
 [[main]]
   name = "<img src='https://api.iconify.design/mdi:account-group-outline.svg' width='16' height='16' style='display:inline-block; vertical-align:middle; margin-bottom:2px;'> 实验室成员"
-  pageRef = "member"
+  pageRef = "members"
   weight = 40
-
 
 
 #[[main]]
