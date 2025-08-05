@@ -15,13 +15,34 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/members/</loc>
+    <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/recruitment/</loc>
     <lastmod>2025-08-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/members/</loc>
+    <loc>//localhost:1313/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/series/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

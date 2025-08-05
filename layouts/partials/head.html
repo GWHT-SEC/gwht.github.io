@@ -37,6 +37,10 @@
     }}
   {{ end -}}
 
+  {{ $friendsLinksCSS := resources.Get "css/extended/friends-links.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $friendsLinksCSS.RelPermalink }}" integrity="{{ $friendsLinksCSS.Data.Integrity }}">
+
+
   {{/* Asset bundles */}}
   {{ $assets := newScratch }}
   {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (.Site.Params.colorScheme | default "blowfish")) }}

@@ -1,0 +1,49 @@
+{{ $links := site.Data.links }}
+{{ $group := slice }}
+{{ $title := "" }}
+
+{{ range $links }}
+  {{ if .title }}
+    {{ if gt (len $group) 0 }}
+      <h4>{{ $title }}</h4>
+      <div class="friends-container">
+        {{ range $group }}
+          <a class="friendurl" target="_blank" href="{{ .link }}" title="{{ .description }}">
+            <div class="frienddiv">
+              <div class="frienddivleft">
+                <img class="myfriend" src="{{ .avatar }}" alt="{{ .name }}" />
+              </div>
+              <div class="frienddivright">
+                <div class="friendname">{{ .name }}</div>
+                <div class="friendinfo">{{ .description }}</div>
+              </div>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+    {{ $title = .title }}
+    {{ $group = slice }}
+  {{ else }}
+    {{ $group = $group | append . }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $group) 0 }}
+  <h4>{{ $title }}</h4>
+  <div class="friends-container">
+    {{ range $group }}
+      <a class="friendurl" target="_blank" href="{{ .link }}" title="{{ .description }}">
+        <div class="frienddiv">
+          <div class="frienddivleft">
+            <img class="myfriend" src="{{ .avatar }}" alt="{{ .name }}" />
+          </div>
+          <div class="frienddivright">
+            <div class="friendname">{{ .name }}</div>
+            <div class="friendinfo">{{ .description }}</div>
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}
