@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article class="max-w-full">
-    <header>
+    <header class="mt-0">
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}

@@ -69,7 +69,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -86,7 +86,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
   showAuthorsBadges = false
   showWordCount = true
-  # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
+  # sharingLinks = ["twitter", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = false
 
 [list]

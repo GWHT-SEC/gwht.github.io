@@ -145,3 +145,8 @@
     background-color: #222 !important;
     box-shadow: 0 2px 6px rgba(255,255,255,0.1) !important;
 }
+
+.myfriend {
+    pointer-events: none; /* 禁止头像被点击 */
+    cursor: default;      /* 鼠标悬停时显示默认箭头 */
+}
