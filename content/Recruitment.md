@@ -91,11 +91,11 @@ CTF（Capture The Flag）是一种流行的信息安全竞赛形式，其英文�
 
 - 👥 招新微信群：
 
-  <img src="../assets/image-20250810193823460.png" alt="image-20250810193823460" style="zoom:20%;" />
+  <img src="../assets/xuanchuanqun.png" alt="xuanchuanqun" style="zoom:30%;" />
 
 - 👨‍💼 实验室负责人微信：
 
-  <img src="../assets/image-20250810182712948.png" alt="image-20250810182712948" style="zoom:20%;" />
+  <img src="../assets/shiyanshifuzeren.jpg" alt="shiyanshifuzeren" style="zoom:15%;" />
 
   
 
