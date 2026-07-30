@@ -2,37 +2,3 @@
 	path = themes/blowfishs
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
-
-# 默认所有文本文件使用 LF
-* text=auto eol=lf
-# 常见网页/配置/源码文件
-*.html text eol=lf
-*.css text eol=lf
-*.js text eol=lf
-*.ts text eol=lf
-*.json text eol=lf
-*.md text eol=lf
-*.yml text eol=lf
-*.yaml text eol=lf
-*.toml text eol=lf
-*.xml text eol=lf
-*.txt text eol=lf
-# Shell 脚本必须 LF，否则 Linux 下可能执行失败
-*.sh text eol=lf
-# Windows 脚本可以保留 CRLF
-*.bat text eol=crlf
-*.cmd text eol=crlf
-# 二进制文件不要处理换行
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
-*.webp binary
-*.pdf binary
-*.zip binary
-*.gz binary
-*.woff binary
-*.woff2 binary
-*.ttf binary
-*.eot binary
